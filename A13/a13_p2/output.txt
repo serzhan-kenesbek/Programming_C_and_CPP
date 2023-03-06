@@ -1,0 +1,9 @@
+Test for addition: 
+- 1 - i
+
+Test for difference: 
+11 - 9i
+
+Test for multiplication: 
+- 10 + 50i
+

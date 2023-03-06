@@ -1,0 +1,15 @@
+Interpretation of the error messages:
+a) The program doesn't know the type string and variables cout, cin, endl, 
+which are all predifined variables from the iostream library and the
+namespace std.
+b) In critter.h file setHunger (the method I deleted the prefix 
+Critter:: from) is a method (a function that is part of the Critter class), 
+but in critter.cpp it is defined as simply an independent function.
+
+Potential alternative solutions:
+a) The issue can be solved by using the scope resolution. 
+To be particular, by adding the prefix std:: to every function/method
+from the iostream library. This includes: string, cout, cin, endl in 
+testcritter.cpp and critter.cpp.
+b) It can be solved by adding the method definition instead of the method
+declaration in the header file or by returning back the Critter:: prefix.

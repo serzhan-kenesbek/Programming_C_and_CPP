@@ -1,0 +1,4 @@
+sum of the two doubles: 6.400000
+difference of the two doubles: 1.400000
+product of the two doubles: 9.750000
+division of the two doubles: 1.560000
